@@ -83,7 +83,7 @@
 
 /* skills section with tiles*/
 #skills {
-    background: #B9E3FE;
+    /*background: #B9E3FE;*/
     padding-top: 35px;
     padding-bottom: 35px;
     margin-top: -10px;
@@ -111,8 +111,8 @@
 
 /* Tiles - thanks to flat UI toolkit */
 .tile {
-  background-color: #eff0f2;
-  border-radius: 6px;
+  background-color: #BDC3C7;
+  /*border-radius: 6px;*/
   padding: 14px;
   position: relative;
   text-align: center;
@@ -131,8 +131,17 @@
   font-size: 15px;
   margin-bottom: 33px;
 }
+
+.tile ul {
+	padding: 0;
+}
+
+.tile li {
+	list-style-type: none;
+	margin-top: 5px;
+}
 .tile-image {
-  height: 100px;
+  height: 128px;
   margin: 31px 0 27px;
   vertical-align: bottom;
 }
