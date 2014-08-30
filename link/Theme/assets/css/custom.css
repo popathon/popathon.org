@@ -1,0 +1,147 @@
+.clients img {
+    max-height: 100px;
+    filter: grayscale();
+}
+
+#call {
+    background: #fff;
+}
+#call h3 {
+    color: #333;
+}
+#call p {
+    color: #333;
+}
+#call .logo {
+	max-width: 360px;
+}
+
+#made-at-popathon {
+	background: url(../img/photos/popathon_03-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 750px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#made-at-popathon h1 {
+    margin-top: 230px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+#made-at-popathon h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+#who-should-join {
+	background: url(../img/photos/popathon_02-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 750px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#who-should-join h1 {
+    margin-top: 230px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+#who-should-join h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+
+/* skills section with tiles*/
+#skills {
+    background: #B9E3FE;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: -10px;
+}
+#skills h3 {
+    /*color: #fff;*/
+}
+#skills p {
+    /*color: #fff;*/
+}
+#skills i {
+    /*color: #fff;*/
+    font-size: 35px;
+    margin-top: 22px;
+}
+
+
+#sf a {
+    color: #fff;
+}
+
+.boxed {
+	background-color: rgba(0,0,0,0.7);
+}
+
+/* Tiles - thanks to flat UI toolkit */
+.tile {
+  background-color: #eff0f2;
+  border-radius: 6px;
+  padding: 14px;
+  position: relative;
+  text-align: center;
+}
+.tile.tile-hot:before {
+  background: url(../images/tile/ribbon.png) 0 0 no-repeat;
+  background-size: 82px 82px;
+  content: '';
+  height: 82px;
+  position: absolute;
+  right: -4px;
+  top: -4px;
+  width: 82px;
+}
+.tile p {
+  font-size: 15px;
+  margin-bottom: 33px;
+}
+.tile-image {
+  height: 100px;
+  margin: 31px 0 27px;
+  vertical-align: bottom;
+}
+.tile-image.big-illustration {
+  height: 111px;
+  margin-top: 20px;
+  width: 112px;
+}
+.tile-title {
+  font-size: 20px;
+  margin: 0;
+}

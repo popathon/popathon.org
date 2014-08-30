@@ -27,7 +27,7 @@ p {
     padding-top: 25px;
 }
 a {
-    color: #16a085;
+    color: #1075AC;
     word-wrap: break-word;
     -webkit-transition: color .1s ease-in, background .1s ease-in;
     -moz-transition: color .1s ease-in, background .1s ease-in;
@@ -70,6 +70,18 @@ hr {
     border-color: #16a085;
     font-weight: 300;
 }
+.btn-blue {
+    color: #fff;
+    background-color: #189AE2;
+    border-color: #189AE2;
+    font-weight: 300;
+}
+.btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .open .dropdown-toggle.btn-blue {
+    color: #fff;
+    background-color: #1075AC;
+    border-color: #1075AC;
+    font-weight: 300;
+}
 .tm {
     font-size: 14px;
     line-height: 20px;
@@ -104,7 +116,7 @@ hr {
     margin-top: 20px;
 }
 .menu h1.logo a:hover {
-    color: #1abc9c;
+    color: #189AE2;
 }
 .menu img.logo {
     margin: 20px 0;
@@ -209,7 +221,8 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/header-bg1.jpg) no-repeat center top;
+    /*background: url(../img/header-bg1.jpg) no-repeat center top;*/
+    background: url(../img/photos/popathon_07-bg.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -354,7 +367,7 @@ hr {
 #portfolio {
     width: 100%}
 #services {
-    background: #1abc9c;
+    background: #189AE2;
     margin-top: 25px;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -405,6 +418,12 @@ hr {
 }
 #sf .dg {
     background-color: #16a085;
+}
+#sf .lb {
+    background-color: #189AE2;
+}
+#sf .db {
+    background-color: #1075AC;
 }
 #sf h4 {
     color: #fff;
