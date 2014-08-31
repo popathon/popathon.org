@@ -1,19 +1,18 @@
-.clients img {
-    max-height: 100px;
-    filter: grayscale();
+.imgwrap a {
+  color: #fff;
 }
 
-#call {
-    background: #fff;
+.imgwrap a:hover {
+  color: #189AE2;
 }
-#call h3 {
-    color: #333;
-}
-#call p {
-    color: #333;
-}
-#call .logo {
-	max-width: 360px;
+
+/* animation delay for button-upcoming attention seeker */
+#button-upcoming {
+  -webkit-animation-delay:1s;
+  -moz-animation-delay:1s;
+  -ms-animation-delay:1s;
+  -o-animation-delay:1s;
+  animation-delay:1s;
 }
 
 #made-at-popathon {
@@ -81,9 +80,30 @@
 }
 
 
+
+
+.clients img {
+    max-height: 100px;
+    filter: grayscale();
+}
+
+#call {
+    background: #fff;
+}
+#call h3 {
+    color: #333;
+}
+#call p {
+    color: #333;
+}
+#call .logo {
+  max-width: 360px;
+}
+
+
+
 /* skills section with tiles*/
 #skills {
-    /*background: #B9E3FE;*/
     padding-top: 35px;
     padding-bottom: 35px;
     margin-top: -10px;
@@ -98,15 +118,6 @@
     /*color: #fff;*/
     font-size: 35px;
     margin-top: 22px;
-}
-
-
-#sf a {
-    color: #fff;
-}
-
-.boxed {
-	background-color: rgba(0,0,0,0.7);
 }
 
 /* Tiles - thanks to flat UI toolkit */
@@ -144,4 +155,9 @@
 .tile-title {
   font-size: 20px;
   margin: 0;
+}
+
+/* SOCIAL FOOTER */
+#sf a {
+    color: #fff;
 }

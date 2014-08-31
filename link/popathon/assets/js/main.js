@@ -1,4 +1,7 @@
 ;(function(){
+	// enable local scrollTo for every internal link
+	$.localScroll();
+
 	// Menu settings
 	$('#menuToggle, .menu-close').on('click', function(){
 		$('#menuToggle').toggleClass('active');
@@ -6,7 +9,7 @@
 		$('#theMenu').toggleClass('menu-open');
 	});
 
-	// scroll into view elements
+	/// scroll into view elements
 	// attention seeking upcomming events button
 	$('#button-upcoming').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
 	  if (isInView) {
