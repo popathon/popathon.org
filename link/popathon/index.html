@@ -17,8 +17,11 @@
 	<link href="assets/css/main.css" rel="stylesheet">
 	<link href="assets/css/custom.css" rel="stylesheet">
 
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Animate.css -->
+	<link href="assets/css/animate.min.css" rel="stylesheet">
 
+	<!-- Fonts -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -33,20 +36,21 @@
 	</head>
 
 	<body>
-
 		<!-- Menu -->
 		<nav class="menu" id="theMenu">
 			<div class="menu-wrap">
-				<h1 class="logo"><a href="index.html#home">Popathon</a></h1>
+				<h1 class="logo"><a href="#">Popathon</a></h1>
 				<i class="fa fa-arrow-right menu-close"></i>
-				<a href="#headerwrap">Home</a>
 				<a href="#made-at-popathon">Made at Popathon</a>
 				<a href="#who-should-join">Storytellers</a>
 				<a href="#call">Upcoming</a>
 				<a href="#contact">Contact</a>
+				
 				<a href="https://twitter.com/popathonhackjam" target="_blank"><i class="fa fa-twitter"></i></a>
 				<a href="mailto:philo@popathon.org" target="_blank"><i class="fa fa-envelope"></i></a>
 			</div>
+			
+			<!-- Menu button -->
 			<div id="menuToggle"><i class="fa fa-bars"></i></div>
 		</nav>
 
@@ -66,6 +70,8 @@
 				</div><!-- row -->
 			</div><!-- /container -->
 		</div><!-- /headerwrap -->
+	
+		
 
 		<!-- WELCOME SECTION -->
 		<div class="container">
@@ -75,7 +81,7 @@
 					<p>Popathon is an international series of hackathon events bringing together digital storytellers, technologists and designers to prototype the future of web-native storytelling.</p>
 				</div>
 				<div class="col-lg-4">
-					<p class="pull-right"><br><a href="#call"><button type="button" class="btn btn-blue btn-lg">Check out upcoming events</button></a></p>
+					<p class="pull-right"><br><a href="#call"><button id="button-upcoming" type="button" class="btn btn-blue btn-lg">Check out upcoming events</button></a></p>
 				</div>
 			</div><!-- /row -->
 			<div class="row mt">
@@ -170,11 +176,11 @@
 		
 		<div id="skills">
 			<div class="container">
-				<div class="row mt">
-					<h3>Teams thrive when different skills are combined. Popathon invites 3 specialities to the mix, each with their own perspective and benefits to gain from taking part.</h3>
+				<div class="row mt centered">
+					<h3>Teams thrive when different skills are combined. Popathon invites 3 specialities to the mix, each with their own perspective and reasons for taking part.</h3>
 					<br>
 				</div><!-- /row -->
-				<div class="row demo-tiles">
+				<div id="skill-tiles" class="row demo-tiles">
 					<div class="col-lg-3 col-lg-offset-1">
 						<div class="tile">
 							<img src="assets/img/icons/circle-icons/video.png" alt="filmmaking" class="tile-image">
@@ -267,9 +273,6 @@
 			</div><!-- container -->
 		</div><!-- dg -->
 
-		
-
-
 		<!-- SOCIAL FOOTER -->
 		<section id="contact">
 			<div class="container">
@@ -298,7 +301,7 @@
 					<div class="col-lg-4 db">
 						<h4 class="ml">EMAIL</h4>
 						<p class="centered"><a href="#"><i class="fa fa-at"></i></a></p>
-						<p class="ml"><a href="mailto:philo@popathon.org" target="_blank">> Send us an email</a></p>
+						<p class="ml"><a href="mailto:philo@popathon.org" target="_blank">> Email us</a></p>
 					</div>
 				</div><!-- row -->
 			</div><!-- container -->
@@ -309,6 +312,7 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.inview.min.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/masonry.pkgd.min.js"></script>
 	<script src="assets/js/imagesloaded.js"></script>
