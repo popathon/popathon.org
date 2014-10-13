@@ -31,7 +31,7 @@
 	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	  <![endif]-->
 
-	  <script src="assets/js/modernizr.custom.js"></script>
+	  <script src="assets/js/vendor/modernizr.custom.js"></script>
 
 	</head>
 
@@ -310,15 +310,15 @@
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.inview.min.js"></script>
-	<script src="assets/js/jquery.scrollTo.min.js"></script>
-	<script src="assets/js/jquery.localScroll.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+	<script src="assets/js/vendor/jquery.inview.min.js"></script>
+	<script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
+	<script src="assets/js/vendor/jquery.localScroll.min.js"></script>
+	<script src="assets/js/vendor/masonry.pkgd.min.js"></script>
+	<script src="assets/js/vendor/imagesloaded.js"></script>
+	<script src="assets/js/vendor/classie.js"></script>
+	<script src="assets/js/vendor/AnimOnScroll.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/masonry.pkgd.min.js"></script>
-	<script src="assets/js/imagesloaded.js"></script>
-	<script src="assets/js/classie.js"></script>
-	<script src="assets/js/AnimOnScroll.js"></script>
 	<script>
 	new AnimOnScroll( document.getElementById( 'grid' ), {
 		minDuration : 0.4,
@@ -326,5 +326,8 @@
 		viewportFactor : 0.2
 	} );
 	</script>
+	<script type='text/javascript'>//<![CDATA[
+    document.write("<script async src='//HOST:3000/browser-sync/browser-sync-client.1.5.8.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
+    //]]></script>
 </body>
 </html>

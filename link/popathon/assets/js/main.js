@@ -26,4 +26,4 @@
 	    // element has gone out of viewport
 	  }
 	});
-})(jQuery)
+})(jQuery);
