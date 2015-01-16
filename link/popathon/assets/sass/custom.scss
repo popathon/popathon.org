@@ -145,7 +145,7 @@
 
 /* SINGLE EVENTS */
 #bdf14-picture {
-  background: url(../img/events/bdf14/bdf14-standup.jpg) no-repeat center top;
+  background: url(../img/patterns/trianglify-background.svg) no-repeat center top;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -154,6 +154,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  h1, h2, h3 {
+    color: #666;
+  }
 }
 
 #bdf14-ana {
