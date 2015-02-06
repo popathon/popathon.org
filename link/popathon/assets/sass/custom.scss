@@ -144,7 +144,7 @@
 }
 
 /* SINGLE EVENTS */
-#bdf14-picture {
+.hero-slide {
   background: url(../img/patterns/trianglify-background.svg) no-repeat center top;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -158,6 +158,18 @@
   h1, h2, h3 {
     color: #666;
   }
+}
+
+#hero-berlin {
+  background: url(../img/patterns/trianglify-background-300.svg) no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #bdf14-ana {
