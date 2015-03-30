@@ -191,3 +191,62 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+/////////////
+// Nav Bar //
+/////////////
+.navbar{
+  button.navbar-toggle {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0px;
+  }
+  
+  button.navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-nav {
+    float: none;
+    li {
+      text-align: center;
+      white-space: nowrap;
+      a {
+        font-weight: 400;
+        padding: 10px 10px;
+        color: #fff !important;
+      }
+    }
+  }
+  .row {
+    position: relative;
+  }
+}
+
+.navbar-transparent {
+  // background-color: rgba(255,255,255,0.85);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.active-menu {
+  background-color: #fff;
+  content: '.';
+  display: block;
+  height: 5px;
+  top: 0;
+  // left: 0;
+  // width: 1%;
+  left: 6%;
+  width: 3%;
+  position: absolute;
+  transition: all .5 linear;
+  z-index: 9;
+}
+
+.special-active-menu {
+  z-index: 10;
+  background-color: rgba(255,255,255,0.5) !important;
+}
