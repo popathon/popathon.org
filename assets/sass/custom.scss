@@ -262,3 +262,37 @@
   z-index: 10;
   background-color: rgba(255,255,255,0.5) !important;
 }
+
+//////////////////////
+// Who should join? //
+//////////////////////
+
+.list-style-none li {
+  list-style-type: none;
+}
+
+////////////////
+// Organisers //
+////////////////
+
+.organisers > li {
+  list-style-type: none;
+}
+
+
+
+//////////////////////
+// Upcomming Events //
+//////////////////////
+
+// counter lowered opacity in .grid
+.grid img.opaque {
+    opacity: 1;
+}
+
+#docs-bcn-padded {
+  padding: 20% 0px;
+}
+
+
+

@@ -553,6 +553,11 @@ hr {
     width: 33%;
     opacity: 0;
 }
+
+.grid.wide-2 li {
+    width: 50%;
+}
+
 .grid li.shown, .no-js .grid li, .no-cssanimations .grid li {
     opacity: 1;
 }
