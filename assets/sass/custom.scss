@@ -1,0 +1,295 @@
+/* animation delay for button-upcoming attention seeker */
+#button-upcoming {
+  -webkit-animation-delay:1s;
+  -moz-animation-delay:1s;
+  -ms-animation-delay:1s;
+  -o-animation-delay:1s;
+  animation-delay:1s;
+}
+
+#made-at-popathon {
+	background: url(../img/photos/popathon_03-bg.jpg) no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#who-should-join {
+	background: url(../img/photos/popathon_02-bg.jpg) no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.imgwrap {
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 750px;
+  width: 100%;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: #189AE2;
+  }
+  h1 {
+    color: #fff;
+    margin-top: 230px;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+}
+
+.clients img {
+    max-height: 100px;
+}
+
+#call {
+    background: #fff;
+}
+#call h3 {
+    color: #333;
+}
+#call p {
+    color: #333;
+}
+#call .logo {
+  max-width: 360px;
+}
+
+/* skills section with tiles*/
+#skills {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: -10px;
+}
+#skills h3 {
+    /*color: #fff;*/
+}
+#skills p {
+    /*color: #fff;*/
+}
+#skills i {
+    /*color: #fff;*/
+    font-size: 35px;
+    margin-top: 22px;
+}
+
+/* Tiles - thanks to flat UI toolkit */
+.tile {
+  background-color: #E9E9E9;
+  /*border-radius: 6px;*/
+  padding: 14px;
+  margin: 14px 0;
+  position: relative;
+  text-align: center;
+}
+.tile p {
+  font-size: 15px;
+  margin-bottom: 33px;
+}
+
+.tile ul {
+	padding: 0;
+}
+
+.tile li {
+	list-style-type: none;
+	margin-top: 5px;
+}
+.tile-image {
+  height: 128px;
+  margin: 31px 0 27px;
+  vertical-align: bottom;
+}
+.tile-image.big-illustration {
+  height: 111px;
+  margin-top: 20px;
+  width: 112px;
+}
+.tile-title {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* SOCIAL FOOTER */
+#sf a {
+    color: #fff;
+}
+
+/* SINGLE EVENTS */
+.hero-slide {
+  background: url(../img/patterns/trianglify-background.svg) no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  h1, h2, h3 {
+    color: #666;
+  }
+}
+
+#hero-berlin {
+  background: url(../img/patterns/trianglify-background-300.svg) no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-barcelona {
+  background: url(../img/patterns/trianglify-background-250.svg) no-repeat center top;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bdf14-ana {
+  background: url(../img/events/bdf14/bdf14-standup.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/////////////
+// Nav Bar //
+/////////////
+.navbar{
+  button.navbar-toggle {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0px;
+  }
+
+  button.navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-nav {
+    float: none;
+    li {
+      text-align: center;
+      white-space: nowrap;
+      a {
+        font-weight: 400;
+        padding: 10px 10px;
+        color: #fff !important;
+      }
+    }
+  }
+  .row {
+    position: relative;
+  }
+}
+
+.navbar-transparent {
+  // background-color: rgba(255,255,255,0.85);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.active-menu {
+  background-color: #fff;
+  content: '.';
+  display: block;
+  height: 5px;
+  top: 0;
+  // left: 0;
+  // width: 1%;
+  left: 6%;
+  width: 6.5%;
+  position: absolute;
+  transition: all .5 linear;
+  z-index: 9;
+}
+
+.special-active-menu {
+  z-index: 10;
+  background-color: rgba(255,255,255,0.5) !important;
+}
+
+//////////////////////
+// Who should join? //
+//////////////////////
+
+.list-style-none li {
+  list-style-type: none;
+}
+
+////////////////
+// Organisers //
+////////////////
+
+.organisers > li {
+  list-style-type: none;
+}
+
+
+
+//////////////////////
+// Upcomming Events //
+//////////////////////
+
+// counter lowered opacity in .grid
+.grid img.opaque {
+    opacity: 1;
+}
+
+#docs-bcn-padded {
+  padding: 20% 0px;
+}

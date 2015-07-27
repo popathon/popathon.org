@@ -1,0 +1,2 @@
+RewriteEngine On
+RedirectMatch 301 /berlin/$ http://popathon.org/berlin.html
