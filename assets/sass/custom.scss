@@ -1,3 +1,19 @@
+button {
+  margin: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.biggertext {
+  font-size: 130%;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
 /* animation delay for button-upcoming attention seeker */
 #button-upcoming {
   -webkit-animation-delay:1s;
@@ -33,11 +49,11 @@
 
 .imgwrap {
   margin-top: -10px;
-  padding-top: 20px;
+  padding: 150px 50px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 750px;
+  /* min-height: 750px; */
   width: 100%;
   a {
     color: #fff;
@@ -47,7 +63,7 @@
   }
   h1 {
     color: #fff;
-    margin-top: 230px;
+    /* margin-top: 230px; */
     font-size: 70px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -66,13 +82,32 @@
   }
 }
 
+@media only screen and (max-width : 768px) {
+    .imgwrap h1 {
+        font-size: 55px;
+    }
+    .imgwrap h2 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .imgwrap h1 {
+        font-size: 40px;
+    }
+    .imgwrap h2 {
+        font-size: 30px;
+    }
+}
+
 .clients img {
     max-height: 100px;
 }
 
-#call {
+.bg-white {
     background: #fff;
 }
+
 #call h3 {
     color: #333;
 }
@@ -88,17 +123,6 @@
     padding-top: 35px;
     padding-bottom: 35px;
     margin-top: -10px;
-}
-#skills h3 {
-    /*color: #fff;*/
-}
-#skills p {
-    /*color: #fff;*/
-}
-#skills i {
-    /*color: #fff;*/
-    font-size: 35px;
-    margin-top: 22px;
 }
 
 /* Tiles - thanks to flat UI toolkit */
