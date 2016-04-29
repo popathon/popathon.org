@@ -264,6 +264,23 @@ hr {
     font-weight: 100;
     letter-spacing: 2px;
 }
+
+@media only screen and (max-width : 768px) {
+    #headerwrap h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    #headerwrap h1 {
+        font-size: 50px;
+    }
+
+    #headerwrap h2 {
+        font-size: 40px;
+    }
+}
+
 #headerwrap i {
     font-size: 35px;
 }
@@ -404,7 +421,7 @@ hr {
     text-align: left;
 }
 #call {
-    background: #2f2f2f;
+    /* background: #2f2f2f; */
     padding-top: 35px;
     padding-bottom: 35px;
     text-align: center;
