@@ -14,10 +14,11 @@ var CanvasVideoPlayer = function(options) {
 		framesPerSecond: 25,
 		hideVideo: true,
 		autoplay: false,
+		makeLoop: false,
+		pauseOnClick: true,
 		audio: false,
 		timelineSelector: false,
-		resetOnLastFrame: true,
-		loop: false
+		resetOnLastFrame: true
 	};
 
 	for (i in options) {
@@ -130,9 +131,11 @@ CanvasVideoPlayer.prototype.bind = function() {
 	var self = this;
 
 	// Playes or pauses video on canvas click
-	this.canvas.addEventListener('click', cvpHandlers.canvasClickHandler = function() {
-		self.playPause();
-	});
+	if(this.options.pauseOnClick === true){
+		this.canvas.addEventListener('click', cvpHandlers.canvasClickHandler = function() {
+			self.playPause();
+		});
+	}
 
 	// On every time update draws frame
 	this.video.addEventListener('timeupdate', cvpHandlers.videoTimeUpdateHandler = function() {
@@ -151,6 +154,7 @@ CanvasVideoPlayer.prototype.bind = function() {
 	if (this.video.readyState >= 2) {
 		self.drawFrame();
 	}
+
 
 	if (self.options.autoplay) {
 	  self.play();
@@ -240,22 +244,19 @@ CanvasVideoPlayer.prototype.loop = function() {
 		this.video.currentTime = this.video.currentTime + elapsed;
 		this.lastTime = time;
 		// Resync audio and video if they drift more than 300ms apart
-		if(this.audio && Math.abs(this.audio.currentTime - this.video.currentTime) > 0.3){
+		if(this.audio && Math.abs(this.audio.currentTime - this.video.currentTime) > .3){
 			this.audio.currentTime = this.video.currentTime;
 		}
 	}
 
 	// If we are at the end of the video stop
 	if (this.video.currentTime >= this.video.duration) {
-		this.playing = false;
+		if(this.options.makeLoop === false){
+			this.playing = false;
+		}
 
 		if (this.options.resetOnLastFrame === true) {
 			this.video.currentTime = 0;
-		}
-
-		if (this.options.loop === true) {
-			this.video.currentTime = 0;
-			this.play();
 		}
 	}
 
