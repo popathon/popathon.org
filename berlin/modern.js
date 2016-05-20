@@ -1,20 +1,17 @@
 $(document).ready(function(){
 
-
-
-
-
-
-  $('a.next').on('click',function(ev){
-    ev.preventDefault();
-    
-    var fragment = this.href;
-    var title = $('#title').text();
-    window.history.pushState({fragment: fragment, title: title}, fragment, fragment);
-    $('#fragment').text(fragment);
-    
-    
-  });
+  if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+    $('.video').after('<canvas class="canvas"></canvas>');
+    var canvasVideo = new CanvasVideoPlayer({
+      videoSelector: '.video',
+      canvasSelector: '.canvas',
+      timelineSelector: false,
+      autoplay: true,
+      makeLoop: true,
+      pauseOnClick: false,
+      audio: false
+    });
+  }
 
 
 
@@ -22,9 +19,3 @@ $(document).ready(function(){
 
 });
 
-
-$(window).on('popstate', function(ev){
-	var data = ev.state || {data: 'no state'};
-	$('#fragment').text(data.fragment);
-	$('#title').text(data.title);
-});

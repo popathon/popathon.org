@@ -7,12 +7,12 @@
 
   <meta itemprop="name" content="Popathon Berlin" />
   <meta itemprop="description" content="On June, 17-18 we are getting together at CLB Berlin to co-create video-based web-native storytelling: sharable short-form video, interactive storylines, hypermedia." />
-  <meta itemprop="image" content="http://popathon.org/berlin/assets/images/popathon-logo.png" />
+  <meta itemprop="image" content="http://popathon.org/berlin/assets/logos/popathon.png" />
 
   <meta property="og:title" content="Popathon Berlin" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="http://popathon.org/berlin" />
-  <meta property="og:image" content="http://popathon.org/berlin/assets/images/popathon-logo.png" />
+  <meta property="og:image" content="http://popathon.org/berlin/assets/logos/popathon.png" />
   <meta property="og:description" content="On June, 17-18 we are getting together at CLB Berlin to co-create video-based web-native storytelling: sharable short-form video, interactive storylines, hypermedia." />
 
   <meta name="twitter:card" content="Create web-native video stories on June, 17-18 at CLB Berlin!" />
@@ -20,10 +20,10 @@
   <meta name="twitter:creator" content="@gona" />
   <meta name="twitter:title" content="Popathon Berlin" />
   <meta name="twitter:description" content="On June, 17-18 we are getting together at CLB Berlin to co-create video-based web-native storytelling: sharable short-form video, interactive storylines, hypermedia." />
-  <meta name="twitter:image" content="http://popathon.org/berlin/assets/images/popathon-logo.png" />
+  <meta name="twitter:image" content="http://popathon.org/berlin/assets/logos/popathon.png" />
 
   <link rel="stylesheet" href="assets/fonts/monitor.min.css" />
-  <script src="modernizr.js"></script>
+  <script src="modernizr.js?v=20160520"></script>
   <script>
     (function(undefined) {
       function s(href) {
@@ -34,7 +34,7 @@
         h.appendChild(s);
       }
       if (Modernizr.cssvhunit || Modernizr.cssvmaxunit || Modernizr.cssvwunit || Modernizr.csswmaxunit) {
-        s('modern.css?v=20160517');
+        s('modern.css?v=20160520');
       } else {
         s('legacy.css?v=20160517');
       }
@@ -77,7 +77,9 @@
       <p class="tldr">Create web-native video stories on June, 17-18 at CLB Berlin!</p>
 
       <figure class="background" role="presentation" aria-hidden="hidden">
-        <video src="assets/videos/PopathonParis20140330.mp4" loop autoplay muted />
+        <video class="video" muted="muted" loop="loop" autoplay="autoplay">
+          <source src="assets/videos/PopathonParis20140330.mp4" type="video/mp4" />
+        </video>
         <figcaption>video by <a href="https://vimeo.com/88678061">Learning to count</a></figcaption>
       </figure>
 
@@ -138,8 +140,8 @@
       <div class="third">
         <dl>
           <dt>When?</dt>
-          <dd><time datetime="2016-06-17T19:00">Friday, June 17 from 19:00 to 23:00</time></dd>
-          <dd><time datetime="2016-06-19T9:00">Saturday, June 18 from 9:00 to 20:00</time></dd>
+          <dd><time datetime="2016-06-17T19:00">Friday, June 17</time></dd>
+          <dd><time datetime="2016-06-19T9:00">Saturday, June 18</time></dd>
         </dl>
       </div>
       <div class="third">
@@ -159,6 +161,62 @@
           </dd>
         </dl>
       </div>
+      
+      
+      <div class="full">
+        <table>
+         <thead>
+           <tr>
+             <th>Friday, June 17</th>
+             <th></th>
+             <th>Saturday, June 18</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td></td>
+             <th>9:00</th>
+             <td>Breakfast Talks</td>
+           </tr>
+           <tr>
+             <td></td>
+             <th>10:00</th>
+             <td>Co-Creation</td>
+           </tr>
+           <tr>
+             <td></td>
+             <th>12:00</th>
+             <td>Lunchtime</td>
+           </tr>
+           <tr>
+             <td></td>
+             <th>13:00</th>
+             <td>Co-Creation</td>
+           </tr>
+           <tr>
+             <td>Registration</td>
+             <th>18:00</th>
+             <td>Final Sprint</td>
+           </tr>
+           <tr>
+             <td>Lightning Talks</td>
+             <th>19:00</th>
+             <td>Presentations</td>
+           </tr>
+           <tr>
+             <td>Team Formation</td>
+             <th>20:00</th>
+             <td>Finissage</td>
+           </tr>
+           <tr>
+             <td>Ideation</td>
+             <th>21:00</th>
+             <td></td>
+           </tr>
+         </tbody>
+         <tfoot></tfoot>
+        </table>
+      </div>
 
     </section>
 
@@ -170,62 +228,115 @@
       </div>
 
       <div class="third">
-        <dl>
-          <dt><a href="https://twitter.com/mike_j_robbins" target="_blank">Mike Robbins</a>, Speaker</dt>
-          <dd>Creative Technologist at Helios Design Labs.</dd>
-        </dl>
-      </div>
-      <div class="third">
-        <dl>
-          <dt>&#160;</dt>
-          <dd class="center">&#215;</dd>
-        </dl>
-      </div>
-      <div class="third">
-        <dl>
-          <dt>&#160;</dt>
-          <dd class="center">&#215;</dd>
-        </dl>
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/MikeRobbins.jpg" alt="Mike Robbins" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Mike Robbins</strong> <br />Speaker and Mentor</summary>
+            <p>Mike Robbins is Creative Technologist and a partner at Helios Design Labs. He oversees the interactive part of Helios' creative output.</p>
+            <p>Recent projects that he has worked on in include After the Storm with Andrew Grace, This Changes Everything, Highrise with Kat Cizek and the NFB, Offshore with Brenda Longfellow, 17,000 Islands with Thomas Østbye and Edwin, World Online Orchestra with the Copenhagen Phil among others. The work has collectively won a number of major awards and nominations and has been featured in such venues as IDFA, Sheffield DocFest, smartFip@, Bristol iDocs and others, including a nomination for activism (with Offshore) at 2014 SXSW Interactive awards.</p>
+            <p>Mike studied visual arts at York University in Toronto, and picked up his computer skills on the job at Helios. He is currently based in Berlin and co-creating a number of projects with director/producer Harmke Heezen, including A Field Guide to Male Muses.</p>
+            <nav><a href="https://twitter.com/mike_j_robbins" target="_blank">@mike_j_robbins</a></nav>
+          </details>
+        </figcaption>
+        </figure>
       </div>
 
       <div class="third">
-        <dl>
-          <dt><a href="http://filmicweb.org/about/" target="_blank">Joscha Jäger</a>, Mentor</dt>
-          <dd>Freelance Interface Designer and part-time Research Assistant, working in the field of web-based film and video search engines. Broad interest in the domain of archives, interactive time-based media and search user interfaces.</dd>
-        </dl>
-      </div>
-      <div class="third">
-        <dl>
-          <dt><a href="https://about.me/matthieu.tanguay.carel" target="_blank">Matthieu Tanguay-Carel</a>, Mentor</dt>
-          <dd>Freelance Software consultant and web developer with years of experience building websites, APIs and backend services.</dd>
-        </dl>
-      </div>
-      <div class="third">
-        <dl>
-          <dt>&#160;</dt>
-          <dd class="center">&#215;</dd>
-        </dl>
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/HarmkeHeezen.jpg" alt="Harmke Heezen" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Harmke Heezen</strong> <br />Speaker and Mentor</summary>
+            <p>Harmke Heezen is a freelance director, writer and creative producer, based in Berlin.</p>
+            <p>She holds a Master’s Degree in Film Studies from Utrecht University. She directed and produced for the Arts and Culture department of the Dutch national public broadcaster AVRO, before moving to Berlin in 2011.</p>
+            <p>As an independent filmmaker she has made several shorts and co-created the innovative transmedia project Baltic Warriors with production company Kinomaton Berlin.</p>
+            <p>Currently, she works on a series of projects as creative collaborator with Mike Robbins of Helios Design Labs, ranging from a mobile experience for the BBC, a VR piece, and the webdoc A Field Guide to Male Muses.</p>
+            <nav><a href="http://www.harmkeheezen.com/contact/" target="_blank">harmkeheezen.com/contact</a></nav>
+          </details>
+        </figcaption>
+        </figure>
       </div>
 
       <div class="third">
-        <dl>
-          <dt><a href="https://twitter.com/phivk" targe="_blank">Philo van Kemenade</a>, Facilitator</dt>
-          <dd>Initiatator of Popathon to boost the development of an interactive storytelling language that fits the nature of the web.</dd>
-        </dl>
-      </div>
-      <div class="third">
-        <dl>
-          <dt><a href="https://twitter.com/juliakarmo" target="_blank">Julia Karmo</a>, Facilitator</dt>
-          <dd>Freelance journalist and editor in Berlin. Interested in ways that technology and collaboration create original content.</dd>
-        </dl>
-      </div>
-      <div class="third">
-        <dl>
-          <dt><a href="https://twitter.com/gona">Daniel Gona</a>, Facilitator</dt>
-          <dd>Independent design and business consultant. Interested in hypermedia and the intersection of branding and business model innovation.</dd>
-        </dl>
       </div>
 
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/JoschaJaeger.jpg" alt="Joscha Jäger" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Joscha Jäger</strong> <br />Mentor</summary>
+            <p>Joscha Jäger is a self-employed Interface Designer and part-time Research Assistant, working in the field of web-based film and video search engines.</p>
+            <p>Since the beginning of 2010, he developed a broad interest in the domain of archives, interactive time-based media and search user interfaces that he is trying to pursue in different projects and activities.</p>
+            <nav><a href="http://filmicweb.org/about/" target="_blank">filmicweb.org/about</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/MatthieuTanguayCarel.jpg" alt="Matthieu Tanguay-Carel" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Matthieu Tanguay-Carel</strong> <br />Mentor</summary>
+            <p>Matthieu Tanguay-Carel is a freelance software consultant and web developer.</p>
+            <p>He has years of experience building websites, APIs and backend services. He enjoys working with people from different backgrounds and can speak English, French and Spanish.</p>
+            <nav><a href="https://twitter.com/matstc" target="_blank">@matstc</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/DanielGona.jpg" alt="Daniel Gona" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Daniel Gona</strong> <br />Facilitator</summary>
+            <p>Daniel Gona is an independent design and business consultant.</p>
+            <p>His core areas are hypermedia and the intersection of branding and business model innovation.</p>
+            <p>Daniel is co-organiser of Popathon Berlin.</p>
+            <nav><a href="https://twitter.com/gona" target="_blank">@gona</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/JuliaKarmo.jpg" alt="Julia Karmo" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Julia Karmo</strong> <br />Facilitator</summary>
+            <p>Julia Karmo is an experienced journalist / editor producing and self-shooting news features from her base in Berlin.</p>
+            <p>She also consults and trains on best practices of using social media in breaking news situations.<p>
+              <p>Until autumn 2014 Julia was a Foreign News editor at Sky News, before that she ran the Russia bureau for Sky news, producing a stream of original features from Russia and beyond, and coordinating live coverage of high-profile events, such as presidential elections, G8 Summit and Champion's league summit.</p>
+            <p>Her recent field assignments include producing coverage of the refugee crisis for Sky News. She also field produced the coverage of the FIFA scandal, Germanwings crash, Berlin Wall Anniversary coverage, and Crimea takeover.</p>
+            <p>Julia is co-organiser of Popathon Berlin.</p>
+            <nav><a href="https://twitter.com/juliakarmo" target="_blank">@juliakarmo</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/PhiloVanKemenade.jpg" alt="Philo van Kemenade" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Philo van Kemenade</strong> <br />Mentor and Facilitator</summary>
+            <p>Philo van Kemenade initiated Popathon to boost the development of an interactive storytelling language that fits the nature of the web.</p>
+            <p>Philo van Kemenade combines video, data and the web to make storytelling more engaging and have it reach wider audiences. His expertise in Artificial Intelligence and passion for filmmaking brought him to London, where he researched data-driven storytelling using user-generated online video as its building blocks. He believes we are currently lacking an interactive storytelling language that fits the nature of the web and feels we need multidisciplinary experimentation to move this field forward.</p>
+            <nav><a href="https://twitter.com/phivk" target="_blank">@phivk</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
 
     </section>
 
@@ -247,30 +358,34 @@
 
   <footer>
 
-
     <section id="partner">
       <div hidden class="full">
         <h5>Partner</h5>
       </div>
-      <div class="half">
+      <div class="third">
         <nav class="center">
-          <a href="http://clb-berlin.de" target="_blank">
-            <img src="partner/clb.jpg" width="128" alt="CLB Berlin" />
+          <a href="https://opennews.org" target="_blank">
+            <img src="assets/logos/opennews.png" width="128" alt="Open News" />
           </a>
         </nav>
       </div>
-      <div class="half">
+      <div class="third">
         <nav class="center">
           <a href="http://popathon.org" target="_blank">
-            <img src="partner/popathon.png" width="128" alt="Popathon" />
+            <img src="assets/logos/popathon.png" width="128" alt="Popathon" />
+          </a>
+        </nav>
+      </div>
+      <div class="third">
+        <nav class="center">
+          <a href="http://clb-berlin.de" target="_blank">
+            <img src="assets/logos/clb.jpg" width="128" alt="CLB Berlin" />
           </a>
         </nav>
       </div>
     </section>
 
-
     <hr />
-
 
     <section id="social">
       <div class="full">
@@ -300,8 +415,14 @@
     if ( !window.jQuery ) {
       s('jquery.js');
     }
-    if (Modernizr.video) {
-      s('modern.js?v=20160517');
+    if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+      s('canvas-video-player.js?v=20160520');
+    }
+    if (!Modernizr.details) {
+      s('details.js');
+    }
+    if (Modernizr.canvas) {
+      s('modern.js?v=20160520');
     } else {
       s('legacy.js?v=20160517');
     }
