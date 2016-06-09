@@ -632,12 +632,24 @@ hr:nth-of-type(2) {
 
 #partner{
   background-color: #fff;
+}
+#partner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-bottom: 2.4rem;
 }
+#partner img {
+  width: 100%;
+}
+
 
 #social {
   zoom: 80%;
   font-weight: bold;
+}
+#social div.full {
+	display: none;
 }
 #social > div.half {
   border-right: 1px solid #ddd;
