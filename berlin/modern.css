@@ -645,19 +645,20 @@ hr:nth-of-type(2) {
 
 
 #social {
-  zoom: 80%;
-  font-weight: bold;
+  background-color: #7FDBFF;
 }
 #social div.full {
-	display: none;
+  display: none;
 }
 #social > div.half {
   border-right: 1px solid #ddd;
   padding-bottom: 2.4rem;
-  background-color: #7FDBFF;
 }
 #social > div.half:last-of-type {
   border-right: 0;
+}
+#social img {
+  height: 100%;
 }
 
 
