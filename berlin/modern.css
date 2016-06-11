@@ -523,8 +523,11 @@ hr:nth-of-type(2) {
   border-top: 1px solid #ddd;
   background-color: #0074D9;
   color: #fff;
-  padding-bottom: 3.2rem;
+  padding-bottom: 2.4rem;
   text-align: center;
+}
+#berlin > div:nth-of-type(5) table {
+  margin-bottom: 4.2rem;
 }
 
 /*
