@@ -653,17 +653,23 @@ hr:nth-of-type(2) {
 #social div.full {
   display: none;
 }
-#social > div.half {
+#social > div.third {
   border-right: 1px solid #ddd;
   padding-bottom: 2.4rem;
 }
-#social > div.half:last-of-type {
+#social > div.third:last-of-type {
   border-right: 0;
 }
 #social img {
   height: 100%;
 }
-
+#social p {
+  font-size: .8rem;
+}
+#social a {
+  color: #fff;
+  text-decoration: none;
+}
 
 
 
