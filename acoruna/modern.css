@@ -552,13 +552,13 @@ a.button.btn-red:hover {
 
 #people {
   zoom: 80%;
+  background-color: #fff;
 }
 
 #people > div.third,
 #people > div.half {
   border-bottom: 1px solid #ddd;
   padding-bottom: 2.4rem;
-  background-color: #fff;
 }
 #people > div.third:nth-of-type(9),
 #people > div.third:nth-of-type(10),
@@ -651,7 +651,7 @@ section{
   justify-content: center;
 }
 section > div {
-  padding: 5vh 0 0 5vw;
+  padding: 5vh 3vw 0 3vw;
 }
 .half {
   width: 50%;
@@ -673,9 +673,6 @@ section > div {
 .fourth {
   width: 25%;
 }
-.fourth:last-of-type {
-  padding: 5vh 5vw 0 5vw;
-}
 .full {
   width: 100%;
   padding: 5vh 5vw 0 5vw;
@@ -683,10 +680,3 @@ section > div {
 .center {
   text-align: center;
 }
-
-
-
-
-
-
-
