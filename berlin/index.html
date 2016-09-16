@@ -1,54 +1,429 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Popathon is an international series of hackathon events bringing together digital storytellers, technologists and designers to prototype the future of web-native storytelling">
-	<meta name="author" content="Philo van Kemenade">
-	<link rel="shortcut icon" href="../assets/ico/favicon.png">
+  <meta charset="utf-8" />
 
-	<title>Popathon - Growing a community of web-native storytellers</title>
+  <title>Popathon Berlin</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+  <meta itemprop="name" content="Popathon Berlin" />
+  <meta itemprop="description" content="On June, 17-18 we are getting together in Berlin to co-create video-based web-native storytelling: sharable short-form video, interactive storylines, hypermedia." />
+  <meta itemprop="image" content="http://popathon.org/berlin/assets/logos/popathon.png" />
 
-	<!-- Custom styles for this template -->
-	<link href="../assets/css/main.css" rel="stylesheet">
-	<link href="../assets/css/custom.css" rel="stylesheet">
-	<link href="../assets/css/event-warwick.css" rel="stylesheet">
-	<!-- Animate.css -->
-	<link href="../assets/css/animate.min.css" rel="stylesheet">
+  <meta property="og:title" content="Popathon Berlin" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://popathon.org/berlin" />
+  <meta property="og:image" content="http://popathon.org/berlin/assets/logos/popathon.png" />
+  <meta property="og:description" content="On June, 17-18 we are getting together in Berlin to co-create video-based web-native storytelling: sharable short-form video, interactive storylines, hypermedia." />
 
-	<!-- Fonts -->
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@popathonhackjam" />
+  <meta name="twitter:title" content="Popathon Berlin" />
+  <meta name="twitter:description" content="Co-create web-native video stories on June, 17-18!" />
+  <meta name="twitter:image" content="http://popathon.org/berlin/assets/logos/popathon.png" />
 
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	  <![endif]-->
+  <link rel="stylesheet" href="assets/fonts/monitor.min.css" />
+  <script src="modernizr.js?v=20160520"></script>
+  <script>
+    (function(undefined) {
+      function s(href) {
+        var h = document.getElementsByTagName('head')[0],
+            s = document.createElement('link');
+            s.rel = 'stylesheet';
+            s.href = href;
+        h.appendChild(s);
+      }
+      if (Modernizr.cssvhunit || Modernizr.cssvmaxunit || Modernizr.cssvwunit || Modernizr.csswmaxunit) {
+        s('modern.css?v=20160610');
+      } else {
+        s('legacy.css?v=20160517');
+      }
+    }).call(this);
+  </script>
+  <noscript>
+    <link rel="stylesheet" href="legacy.css?v=20160517" />
+  </noscript>
 
-	<script src="../assets/js/vendor/modernizr.custom.js"></script>
+</head>
 
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<body>
 
-		ga('create', 'UA-43863517-4', 'auto');
-		ga('send', 'pageview');
+  <nav hidden  id="shortcuts">
+    <ul>
+      <li>
+        <a href="#popathon">Popathon</a>
+      </li>
+      <li>
+        <a href="#berlin">Berlin</a>
+      </li>
+      <li>
+        <a href="#people">People</a>
+      </li>
+      <li>
+        <a href="#join">Join</a>
+      </li>
+    </ul>
+  </nav>
 
-	</script>
+  <hr />
 
-	</head>
+  <header>
 
-	<body>
+      <figure id="icon" role="presentation" aria-hidden="hidden">
+        <img src="icon.svg" alt="" width="128" />
+      </figure>
 
-	<h1>You want <a href="http://popathon.org/berlin.html">http://popathon.org/berlin.html</a> ;)</h1>
+      <h1>Popathon Berlin</h1>
+      <p class="tldr">Co-create the future of web-native storytelling!</p>
 
-	</body>
+      <figure class="background" role="presentation" aria-hidden="hidden">
+        <video class="video" muted="muted" loop="loop" autoplay="autoplay" preload="metadata" poster="assets/videos/PopathonBerlin20160618.png">
+          <source src="assets/videos/PopathonBerlin20160618.mp4" type="video/mp4" />
+        </video>
+        <figcaption hidden>video by Julia Karmo</figcaption>
+      </figure>
+
+  </header>
+
+  <hr />
+
+  <main>
+
+    <section id="popathon">
+      <div class="full">
+        <h2 hidden>Popathon</h2>
+        <p><a href="http://popathon.org">Popathon</a> is an international series of hack jams and workshops bringing together media makers, technologists and designers to prototype the future of web-native storytelling.</p>
+      </div>
+
+      <div class="third">
+       <blockquote>
+         <p>Popathon was a great experience, highly recommend it to anyone working on a web doc.</p>
+         <footer>
+            <cite><strong>Paulina Tervo</strong>, Filmmaker</cite>
+         </footer>
+       </blockquote>
+      </div>
+      <div class="third">
+       <blockquote>
+         <p>I thought it was great. It was a good combination of people, there were some great filmmakers with some great material and some good developers and we were all inspired by each other.</p>
+         <footer>
+            <cite><strong>Mark Boas</strong>, Web Developer</cite>
+         </footer>
+       </blockquote>
+      </div>
+      <div class="third">
+       <blockquote>
+         <p>Something like today is really important in terms of bringing people together across these different skillsets and bringing them into an easy conversation.</p>
+         <footer>
+            <cite><strong>Mandy Rose</strong>, Director <abbr title="Digital Cultures Research Centre">DCRC</abbr>, University of the West of England</cite>
+         </footer>
+       </blockquote>
+      </div>
+
+    </section>
+
+    <hr />
+
+    <section id="berlin">
+      <div class="half">
+        <h2 hidden>Popathon Berlin #2</h2>
+        <p>On June, 17-18 2016 we got together in Berlin to co-create video-based web-native storytelling: sharable short-form video, interactive storylines, hypermedia.</p>
+        <p><strong>Explore the amazing prototypes created at Popathon Berlin #2 on <a href="https://hackdash.org/dashboards/popbln2016" target="_blank">hackdash</a>!</strong></p>
+      </div>
+      <div class="half">
+        <h2 hidden>Popathon Berlin #1</h2>
+        <p>On Mai, 8-9 2015 we got together for the first Berlin Popathon</p>
+        <p><strong>Explore the all prototypes created at Popathon Berlin #1 on <a href="https://hackdash.org/dashboards/popberlin" target="_blank">hackdash</a>!</strong></p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="people">
+      <div hidden class="full">
+        <h2>People</h2>
+      </div>
+
+<!-- people from Popathon Berlin #2
+      <div class="half">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/IanForrester.jpg" alt="Ian Forrester" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Ian Forrester</strong> <br />Speaker and Mentor</summary>
+            <p>Ian Forrester is a well known and likeable character on the digital
+scene in the UK.</p>
+            <p>He has now made Manchester, UK his home, where he works for the BBC's R&amp;D north lab. His current research is into the area of Future Narrative and
+Storytelling.</p>
+			<p>Ian is working on creating a community of practice
+around the idea of "object-based" media which enables content atoms to
+be mixed and remixed; using sensors, data, algorithms or directed
+insight.</p>
+            <nav><a href="http://cubicgarden.com" target="_blank">http://cubicgarden.com</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="half">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/MarenDemant.jpg" alt="Maren Demant" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Maren Demant</strong> <br />Speaker</summary>
+            <p>Maren Demant was born in 1991 in Wiesbaden, Germany. Since 2011 she works as a media artist & photographer.</p>
+            <p>She moved to Berlin to study at Berlin University of Art & Design. In 2015 she successfully graduated with a 360° VR short film that got finalist at Unity Vision Summit 16.</p>
+			<p>She organizes & participates various exhibitions & interdisciplinary projects. In 2016 she set her focus on immersive strategies in VR experience design & participatory installations with HMD´s. Her clients range from advertisement to documentary and education.</p>
+            <nav><a href="http://vroop.space" target="_blank">http://vroop.space</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="half">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/MikeRobbins.jpg" alt="Mike Robbins" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Mike Robbins</strong> <br />Speaker and Mentor</summary>
+            <p>Mike Robbins is Creative Technologist and a partner at Helios Design Labs. He oversees the interactive part of Helios' creative output.</p>
+            <p>Recent projects that he has worked on in include After the Storm with Andrew Grace, This Changes Everything, Highrise with Kat Cizek and the NFB, Offshore with Brenda Longfellow, 17,000 Islands with Thomas Østbye and Edwin, World Online Orchestra with the Copenhagen Phil among others. The work has collectively won a number of major awards and nominations and has been featured in such venues as IDFA, Sheffield DocFest, smartFip@, Bristol iDocs and others, including a nomination for activism (with Offshore) at 2014 SXSW Interactive awards.</p>
+            <p>Mike studied visual arts at York University in Toronto, and picked up his computer skills on the job at Helios. He is currently based in Berlin and co-creating a number of projects with director/producer Harmke Heezen, including A Field Guide to Male Muses.</p>
+            <nav><a href="https://twitter.com/mike_j_robbins" target="_blank">@mike_j_robbins</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="half">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/HarmkeHeezen.jpg" alt="Harmke Heezen" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Harmke Heezen</strong> <br />Speaker and Mentor</summary>
+            <p>Harmke Heezen is a freelance director, writer and creative producer, based in Berlin.</p>
+            <p>She holds a Master’s Degree in Film Studies from Utrecht University. She directed and produced for the Arts and Culture department of the Dutch national public broadcaster AVRO, before moving to Berlin in 2011.</p>
+            <p>As an independent filmmaker she has made several shorts and co-created the innovative transmedia project Baltic Warriors with production company Kinomaton Berlin.</p>
+            <p>Currently, she works on a series of projects as creative collaborator with Mike Robbins of Helios Design Labs, ranging from a mobile experience for the BBC, a VR piece, and the webdoc A Field Guide to Male Muses.</p>
+            <nav><a href="http://www.harmkeheezen.com/contact/" target="_blank">harmkeheezen.com/contact</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/JoschaJaeger.jpg" alt="Joscha Jäger" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Joscha Jäger</strong> <br />Mentor</summary>
+            <p>Joscha Jäger is an Interface Designer and creator of the <a href="http://frametrail.org" target="_blank">FrameTrail</a> Open Hypervideo Environment.</p>
+            <p>He works on web-based hypervideo technology, open source film concepts and semantic video search interfaces. Joscha has a strong focus on film as information architecture, collaborative editing systems for non-linear film and user-driven annotation systems.</p>
+            <nav><a href="http://filmicweb.org/about/" target="_blank">filmicweb.org/about</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/MatthewShotton.png" alt="Matthew Shotton" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Matthew Shotton</strong> <br />Mentor</summary>
+            <p>Matthew Shotton is a Research Engineer currently working in the User Experience &amp; Accessibility team at BBC R&amp;D.</p>
+            <p>Matthew has worked on a range of projects, from 3D transmission chains to variable length radio documentaries. Matthew's current research area is in dynamic video composition on the web and the range of user experiences this enables. He's the author of BBC R&amp;D's VideoContext library for video rendering and composition in the browser.</p>
+            <nav><a href="https://twitter.com/matthewshotton" target="_blank">@matthewshotton</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/MatthieuTanguayCarel.jpg" alt="Matthieu Tanguay-Carel" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Matthieu Tanguay-Carel</strong> <br />Mentor</summary>
+            <p>Matthieu Tanguay-Carel is a freelance software consultant and web developer.</p>
+            <p>He has years of experience building websites, APIs and backend services. He enjoys working with people from different backgrounds and can speak English, French and Spanish.</p>
+            <nav><a href="https://twitter.com/matstc" target="_blank">@matstc</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+-->
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/DanielGona.jpg" alt="Daniel Gona" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Daniel Gona</strong> <br />Facilitator and Mentor</summary>
+            <p>Daniel Gona is an business design consultant based in Berlin.</p>
+            <p>His core areas are hypermedia as well as the intersection of branding and business model innovation.</p>
+            <p>Daniel is initiator and co-organiser of Popathon Berlin.</p>
+            <nav><a href="https://twitter.com/gona" target="_blank">@gona</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/JuliaKarmo.jpg" alt="Julia Karmo" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Julia Karmo</strong> <br />Facilitator</summary>
+            <p>Julia Karmo is a journalist, producer and editor based in Berlin.</p>
+            <p>She co-founded MigrationMatters, a micro-course project that aims to bring out evidence about migration to the wider public. She has spent the past 10 years reporting on foreign news around the world for Sky News and the Associated Press.</p>
+            <p>Julia is co-organiser of Popathon Berlin.</p>
+            <nav><a href="https://twitter.com/juliakarmo" target="_blank">@juliakarmo</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+      <div class="third">
+        <figure itemscope="" itemtype="http://schema.org/Person">
+          <img src="assets/fotos/PhiloVanKemenade.jpg" alt="Philo van Kemenade" itemprop="image" />
+        <figcaption>
+          <details>
+            <summary><strong itemprop="name">Philo van Kemenade</strong> <br />Facilitator and Mentor</summary>
+            <p>Philo van Kemenade initiated Popathon to boost the development of an interactive storytelling language that fits the nature of the web.</p>
+            <p>Philo van Kemenade combines video, data and the web to make storytelling more engaging and have it reach wider audiences. His expertise in Artificial Intelligence and passion for filmmaking brought him to London, where he researched data-driven storytelling using user-generated online video as its building blocks. He believes we are currently lacking an interactive storytelling language that fits the nature of the web and feels we need multidisciplinary experimentation to move this field forward.</p>
+            <nav><a href="https://twitter.com/phivk" target="_blank">@phivk</a></nav>
+          </details>
+        </figcaption>
+        </figure>
+      </div>
+
+    </section>
+
+    <hr hidden />
+
+    <section id="join">
+     <div class="full">
+       <h4 hidden>Join</h4>
+       <nav class="center"><p>Eager to prototype the future of web-native storytelling?<br /> <a class="button" href="http://goo.gl/forms/PUqYrGsKSx" target="_blank"><span>Apply here for the next Popathon!</span></a></p></nav>
+     </div>
+    </section>
+
+
+  </main>
+
+
+  <hr />
+
+
+  <footer>
+
+    <section id="partner">
+      <div hidden class="full">
+        <h5>Partner</h5>
+      </div>
+      <div class="fourth">
+        <nav class="center">
+          <a href="https://opennews.org" target="_blank">
+            <img src="assets/logos/opennews.png" width="128" alt="Open News" />
+          </a>
+        </nav>
+      </div>
+      <div class="fourth">
+        <nav class="center">
+          <a href="http://mrcardboard.eu​​" target="_blank">
+            <img src="assets/logos/mrcardboard.png" width="128" alt="Mr. Cardboard" />
+          </a>
+        </nav>
+      </div>
+      <div class="fourth">
+        <nav class="center">
+          <a href="http://popathon.org" target="_blank">
+            <img src="assets/logos/popathon.png" width="128" alt="Popathon" />
+          </a>
+        </nav>
+      </div>
+      <div class="fourth">
+        <nav class="center">
+          <a href="http://clb-berlin.de" target="_blank">
+            <img src="assets/logos/clb.jpg" width="128" alt="CLB Berlin" />
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="social">
+      <div class="full">
+        <h5 hidden>Links</h5>
+      </div>
+      <div class="third">
+        <nav class="center">
+	      <a href="https://twitter.com/popathonhackjam" target="_blank">  
+	        <img src="assets/logos/twitter.png" width="64" alt="Follow Popathon on Twitter" />
+	        <p>Follow Popathon on Twitter</p>
+	      </a>
+        </nav>
+      </div>
+      <div class="third">
+        <nav class="center">
+	      <a href="https://github.com/popathon" target="_blank">  
+	        <img src="assets/logos/github.png" width="64" alt="Explore Popathon on Github" />
+	        <p>Explore Popathon on Github</p>
+	      </a>
+        </nav>
+      </div>
+      <div class="third">
+        <nav class="center">
+	      <a href="http://storytellersunited.slack.com" target="_blank">  
+	        <img src="assets/logos/slack.png" width="64" alt="Storytellers United on Slack" />
+	        <p>Storytellers United on Slack</p>
+	      </a>
+        </nav>
+        <!--
+        <script async defer src="https://storytellersunited.herokuapp.com/slackin.js?large"></script>
+        -->
+      </div>
+    </section>
+
+  </footer>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+  (function(undefined) {
+    function s(src) {
+      var s = document.createElement('script'),
+          b = document.getElementsByTagName('body')[0];
+          //s.async = true;
+          s.src = src;
+      b.appendChild(s);
+    }
+    if ( !window.jQuery ) {
+      s('jquery.js');
+    }
+     if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+      s('canvas-video-player.js');
+    }
+    if (!Modernizr.details) {
+      s('details.js');
+    }
+    if (Modernizr.canvas) {
+      s('modern.js?v=20160520');
+    } else {
+      s('legacy.js?v=20160517');
+    }
+  }).call(this);
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43863517-4', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
 </html>

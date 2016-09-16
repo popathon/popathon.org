@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF851B;}
+	.st1{fill:#FF4136;}
+	.st2{fill:#0074D9;}
+	.st3{fill:#7FDBFF;}
+	.st4{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M237.7,247.1"/>
+	<polygon class="st1" points="228.1,333.4 63.5,486.5 0,320 	"/>
+	<polygon class="st2" points="237.7,247.1 26.7,49.8 63.5,308.4 	"/>
+	<polygon class="st3" points="237.7,247.1 496.2,248.6 215.4,463.4 	"/>
+	<polygon class="st0" points="26.7,49.8 354.2,83 237.7,247.1 	"/>
+	<polygon class="st0" points="266.8,283.7 136.4,475.4 489.9,390 	"/>
+	<polygon class="st2" points="63.5,486.5 366.9,463.4 228.3,333.3 	"/>
+	<polygon class="st2" points="266.8,300.6 428.3,300.6 489.9,390 	"/>
+	<polygon class="st1" points="237.7,247.1 325.2,26.5 496.2,248.6 	"/>
+	<polygon class="st2" points="325.2,26.5 496.2,248.6 512,103.2 	"/>
+	<polygon class="st3" points="0,320 237.7,247.1 228.1,333.4 	"/>
+	<path class="st4" d="M120.9,106.6h149c104.3,0,142.9,36.8,142.9,112.3c0,74.5-47.1,109.4-149.5,109.4H251v108.5H120.9V106.6z"/>
+</g>
+</svg>
