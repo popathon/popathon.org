@@ -561,9 +561,8 @@ a.button.btn-red:hover {
   border-bottom: 1px solid #ddd;
   padding-bottom: 2.4rem;
 }
-#people > div.third:nth-of-type(2),
-#people > div.third:nth-of-type(3),
-#people > div.third:nth-of-type(4) {
+#people > div.third:nth-of-type(5),
+#people > div.third:nth-of-type(6) {
   border-bottom: 0;
 }
 #people > div.third:nth-of-type(4) {
