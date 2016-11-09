@@ -501,6 +501,10 @@ a.button.btn-red:hover {
   color: #ddd;
 }
 
+#event > div dt {
+  color: #000;
+}
+
 
 #event > div:nth-of-type(1) {
   background-color: #FF851B;
@@ -508,18 +512,15 @@ a.button.btn-red:hover {
 }
 #event > div:nth-of-type(2) {
   
-  background-color: #0074D9;
-  color: #fff;
+  background-color: #fff;
 }
 #event > div:nth-of-type(3) {
   
-  background-color: #0074D9;
-  color: #fff;
+  background-color: #fff;
 }
 #event > div:nth-of-type(4) {
   
-  background-color: #0074D9;
-  color: #fff;
+ background-color: #fff;
 }
 
 #event > div:nth-of-type(5) {
