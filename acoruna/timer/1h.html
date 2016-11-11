@@ -14,7 +14,6 @@
       color: #fff;
     }
     #timer {
-      margin-bottom: 8em;
     }
     #nav-timer {
       opacity: .1;
@@ -25,7 +24,26 @@
     button {
       cursor: pointer;
     }
-	</style>
+    
+    #logo {
+      position: relative;
+      top: -4.8rem;
+    }
+    #logo figcaption {
+      position: relative;
+      top: -4.2rem;
+    }
+    #logo dt {
+      padding: 0;
+      margin: 0;
+      font: normal bold 1.2rem/2.4rem sans-serif;
+    }
+    #logo dd {
+      padding: 0;
+      margin: 0;
+      font: normal normal 1.2rem/1.8rem sans-serif;
+    }
+  	</style>
 
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 </head>
@@ -34,6 +52,17 @@
 
 
 <div id="timer" data-timer="3600"></div>
+
+<figure id="logo">
+  <img src="../logo.svg" width="256" height="auto" />
+  <figcaption>
+    <dl>
+      <dt>#popathon #corunadixital<dt>
+      <dd>http://tiny.cc/popacoruna</dd>
+      <dd>Wifi: POPATHON | corunadixital</dd>
+    </dl>
+  </figcaption>
+</figure>
 
 <nav id="nav-timer">
 <button class="btn btn-success start">Start</button>
