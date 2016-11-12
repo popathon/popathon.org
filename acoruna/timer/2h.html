@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <title>Popathon</title>
+
+  <link rel="stylesheet" href="vendor/timecircles/inc/TimeCircles.css" />
+	<style>
+    body {
+      text-align: center;
+      
+      background: #000;
+      color: #fff;
+    }
+    #timer {
+    }
+    #nav-timer {
+      opacity: .1;
+    }
+    #nav-timer:hover {
+      opacity: 1;
+    }
+    button {
+      cursor: pointer;
+    }
+    
+    #logo {
+      position: relative;
+      top: -4.8rem;
+    }
+    #logo figcaption {
+      position: relative;
+      top: -4.2rem;
+    }
+    #logo dt {
+      padding: 0;
+      margin: 0;
+      font: normal bold 1.6rem/3.2rem sans-serif;
+    }
+    #logo dd {
+      padding: 0;
+      margin: 0;
+      font: normal normal 1.6rem/3.2rem sans-serif;
+    }
+  	</style>
+
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+</head>
+<body>
+
+
+
+<div id="timer" data-timer="7200"></div>
+
+<figure id="logo">
+  <img src="../logo.svg" width="360" height="auto" />
+  <figcaption>
+    <dl>
+      <dt>#popathon #corunadixital<dt>
+      <dd>http://tiny.cc/popacoruna</dd>
+      <!--<dd>Wifi: POPATHON | corunadixital</dd>-->
+    </dl>
+  </figcaption>
+</figure>
+
+<nav id="nav-timer">
+<button class="btn btn-success start">Start</button>
+<button class="btn btn-danger stop">Stop</button>
+<button class="btn btn-info restart">Restart</button>
+</nav>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="vendor/timecircles/inc/TimeCircles.js"></script>
+
+<script>
+
+  $("#timer").TimeCircles({
+    "start": false,
+    "animation": "smooth",
+    "bg_width": 1.2,
+    "fg_width": 0.1,
+    "circle_bg_color": "#444",
+    "time": {
+        "Days": {
+            "text": "Days",
+            "color": "#39CCCC",
+            "show": false
+        },
+        "Hours": {
+            "text": "Hours",
+            "color": "#0074D9",
+            "show": true
+        },
+        "Minutes": {
+            "text": "Minutes",
+            "color": "#01FF70",
+            "show": true
+        },
+        "Seconds": {
+            "text": "Seconds",
+            "color": "#FF4136",
+            "show": true
+        }
+    }
+  }); 
+  
+  $("#nav-timer .start").click(function(){
+    $("#timer").TimeCircles().start();
+  });
+  $("#nav-timer .stop").click(function(){
+    $("#timer").TimeCircles().stop();
+  });
+  $("#nav-timer .restart").click(function(){
+    $("#timer").TimeCircles().restart();
+  });
+  
+</script>
+
+
+</body>
+</html>
