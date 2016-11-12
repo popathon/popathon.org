@@ -6,20 +6,64 @@
   <title>Join Storytellers United on Slack</title>
 
   <style>
+    
+    
+    @-webkit-keyframes fade {
+      0% {
+          opacity: 0;
+      }
+  
+      100% {
+          opacity: 1;
+      }
+    }
+        
     html{
       height: 100%;
       margin: 0;
       padding: 0;
+      
+      background: #001f3f;
     }
     body{
       height: 100%;
+      min-height: 100%;
       margin: 0;
       padding: 0;
+      position: relative;
     }
     #slackin {
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
       width: 100%;
       height: 100%;
       border: 0;
+      
+      -webkit-animation: fade .3s;
+      -webkit-animation-delay: 1s; 
+      -webkit-animation-fill-mode: both;
+    }
+    
+    canvas{
+      display:block;
+      vertical-align:bottom;
+    }
+    #particles-js{
+
+      -webkit-animation: fade .3s;
+      -webkit-animation-delay: .5s; 
+      -webkit-animation-fill-mode: both;
+
+      width: 100%;
+      height: 100%;
+      background-image: url('');
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
     }
   </style>
 
@@ -27,7 +71,135 @@
 
 <body>
 
-<iframe id="slackin" src="https://storytellersunited.herokuapp.com"></iframe>
+
+
+<iframe id="slackin" src="https://storytellersunited.herokuapp.com" onload='/*this.contentDocument.querySelector(".logos, .logos + p").style.display="none"; */ this.contentDocument.getElementsByTagName("body")[0].style.color="#ffffff"; this.contentDocument.getElementsByTagName("footer")[0].style.display="none";' /></iframe>
+
+<div id="particles-js"></div>
+
+<script src="particles.min.js"></script>
+<script>
+particlesJS('particles-js',
+  
+  {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 5,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": .3
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true,
+    "config_demo": {
+      "hide_card": false,
+      "background_color": "#b61924",
+      "background_image": "",
+      "background_position": "50% 50%",
+      "background_repeat": "no-repeat",
+      "background_size": "cover"
+    }
+  }
+
+);
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,6 +210,7 @@
   ga('create', 'UA-43863517-4', 'auto');
   ga('send', 'pageview');
 </script>
+
 
 </body>
 </html>
