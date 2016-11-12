@@ -48,6 +48,9 @@
       -webkit-animation: fade .3s;
       -webkit-animation-delay: 1s; 
       -webkit-animation-fill-mode: both;
+
+      
+      overflow: hidden;
     }
     
     canvas{
@@ -78,7 +81,7 @@
 
 
 
-<iframe id="slackin" src="https://storytellersunited.herokuapp.com" onload='/*this.contentDocument.querySelector(".logos, .logos + p").style.display="none"; */ this.contentDocument.getElementsByTagName("body")[0].style.color="#ffffff"; this.contentDocument.getElementsByTagName("footer")[0].style.display="none";' /></iframe>
+<iframe id="slackin" src="https://storytellersunited.herokuapp.com" onload='/*this.contentDocument.querySelector(".logos, .logos + p, p.signin").style.display="none"; */ this.contentDocument.getElementsByTagName("body")[0].style.color="#000"; this.contentDocument.getElementsByTagName("footer")[0].style.display="none"; this.contentDocument.getElementsByTagName("button")[0].style.background="#f7931e"; this.contentDocument.getElementsByTagName("b")[1].style.color="#f7931e";' scrolling="no"/></iframe>
 
 <div id="particles-js"></div>
 
