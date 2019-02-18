@@ -49,7 +49,7 @@ section {
 
 .imgwrap {
   margin-top: -10px;
-  padding: 150px 50px;
+  padding: 150px 0px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -124,6 +124,9 @@ section {
 .mw-100 {
   max-width: 100% !important;
 }
+
+.mt-3 {margin-top: 1rem;}
+.mt-4 {margin-top: 2rem;}
 
 /* skills section with tiles*/
 #skills {
